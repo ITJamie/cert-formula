@@ -9,6 +9,12 @@
 # Deploy certificates
 # Place all files in a files_roots/cert, e.g. /srv/salt/files/cert/
 
+
+# Added so this state has some body if no certs present
+# Needed so that the cert/updated/system.sls onchanges passes
+cert_empty_nop:
+  test.nop
+
 {% for name, data in mapdata.get('certlist', {}).items() %}
 
   {% set cert = data.get('cert', False) %}
