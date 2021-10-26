@@ -12,7 +12,7 @@
 
 {#- `tplroot` is the directory of the current imported file #}
 {%- set tplroot = tpldir %}
-{%- from tplroot ~ "/libmatchers.jinja" import parse_matchers, query_map %}
+{%- from tplroot ~ "/libmatchers.jinja" import parse_matchers, query_map without context %}
 
 {%- set _default_config_dirs = [
       "parameters/",
