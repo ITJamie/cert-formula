@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.3.2](https://github.com/saltstack-formulas/cert-formula/compare/v1.3.1...v1.3.2) (2021-11-05)
+
+
+### Bug Fixes
+
+* **update:** allow for empty pillar without state fail ([0b562f9](https://github.com/saltstack-formulas/cert-formula/commit/0b562f92c22cd0ca34eb722e6bbb8ddbcdf230b1))
+
+
+### Code Refactoring
+
+* **map.jinja:** standardise v5 structure [skip ci] ([10db716](https://github.com/saltstack-formulas/cert-formula/commit/10db716e92e629a134cc9ed7d119aaae79db9c49))
+
+
+### Continuous Integration
+
+* **3003.1:** update inc. AlmaLinux, Rocky & `rst-lint` [skip ci] ([9cdcdb6](https://github.com/saltstack-formulas/cert-formula/commit/9cdcdb6f75bfaae2aea1bf4d62e4539e04616c4c))
+* **gemfile+lock:** use `ssf` customised `inspec` repo [skip ci] ([3d4783d](https://github.com/saltstack-formulas/cert-formula/commit/3d4783dfd1adcaf2afc8a0158961418e98a8685f))
+* **kitchen:** move `provisioner` block & update `run_command` [skip ci] ([22e2cc2](https://github.com/saltstack-formulas/cert-formula/commit/22e2cc2e5bd40801cba5d3ba4017713bbb4b650b))
+* **kitchen+ci:** update with latest `3003.2` pre-salted images [skip ci] ([93910b1](https://github.com/saltstack-formulas/cert-formula/commit/93910b1817007d17078e6e5654a7552e733204eb))
+* **kitchen+ci:** update with latest CVE pre-salted images [skip ci] ([4893b5d](https://github.com/saltstack-formulas/cert-formula/commit/4893b5d992dbb8752569b0a330b8cdb893fccd5b))
+* add Debian 11 Bullseye & update `yamllint` configuration [skip ci] ([785782b](https://github.com/saltstack-formulas/cert-formula/commit/785782b7fd271dbe98ea14e9d0830dceebd58168))
+* **kitchen+gitlab:** remove Ubuntu 16.04 & Fedora 32 (EOL) [skip ci] ([81d4098](https://github.com/saltstack-formulas/cert-formula/commit/81d4098fa4e0c3f3ab75859a1e50fb79a397ccfd))
+
+
+### Tests
+
+* **_mapdata:** add verification file for `debian-11` [skip ci] ([8466eed](https://github.com/saltstack-formulas/cert-formula/commit/8466eedc0fb72112cd84c07e11411b91681b8527))
+* **alma+rocky:** add platforms (based on CentOS 8) [skip ci] ([4f7a692](https://github.com/saltstack-formulas/cert-formula/commit/4f7a692bf514c4d786ff94bfac8aeb20f9db54d0))
+
 ## [1.3.1](https://github.com/saltstack-formulas/cert-formula/compare/v1.3.0...v1.3.1) (2021-06-18)
 
 
