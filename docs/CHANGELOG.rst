@@ -2,6 +2,37 @@
 Changelog
 =========
 
+`1.3.3 <https://github.com/saltstack-formulas/cert-formula/compare/v1.3.2...v1.3.3>`_ (2022-02-21)
+------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **libmapstack:** allow mapping by booleans and numbers (\ `bb4a726 <https://github.com/saltstack-formulas/cert-formula/commit/bb4a726bc82ebc5440531ba742e52ba0e38f8852>`_\ )
+* **libsaltcli+libmatchers:** ensure Salt client API detection [skip ci] (\ `3622ad2 <https://github.com/saltstack-formulas/cert-formula/commit/3622ad2d41d21bd06e3f2cedcf4bd3e4a5925609>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* update linters to latest versions [skip ci] (\ `66e953e <https://github.com/saltstack-formulas/cert-formula/commit/66e953ec15f3144415f53cee5ce913ec6fca6878>`_\ )
+* **gemfile:** allow rubygems proxy to be provided as an env var [skip ci] (\ `4f8cea7 <https://github.com/saltstack-formulas/cert-formula/commit/4f8cea78cc2965dba1763cec831353792577028f>`_\ )
+* **kitchen+ci:** update with ``3004`` pre-salted images/boxes [skip ci] (\ `128c1ce <https://github.com/saltstack-formulas/cert-formula/commit/128c1cef1f33d30b97c0a899cfe6dc025c3aeab0>`_\ )
+* **kitchen+gitlab:** update for new pre-salted images [skip ci] (\ `e6af371 <https://github.com/saltstack-formulas/cert-formula/commit/e6af3715ee7ddb41b009436653f2de1603619823>`_\ )
+
+Styles
+^^^^^^
+
+
+* **libsaltcli:** fix comments to jinja comments [skip ci] (\ `0e802c6 <https://github.com/saltstack-formulas/cert-formula/commit/0e802c693d6b9add358b6b3ea130d9e967459480>`_\ )
+
+Tests
+^^^^^
+
+
+* **system:** add ``build_platform_codename`` [skip ci] (\ `9f6afde <https://github.com/saltstack-formulas/cert-formula/commit/9f6afdee27bb48b37e37046ce55f7024c8157b28>`_\ )
+
 `1.3.2 <https://github.com/saltstack-formulas/cert-formula/compare/v1.3.1...v1.3.2>`_ (2021-11-05)
 ------------------------------------------------------------------------------------------------------
 
